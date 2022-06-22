@@ -646,7 +646,6 @@ a[data-lightbox]:hover img {
 }
 
 h1,
-h2,
 h3,
 h4,
 h5,
@@ -855,6 +854,14 @@ h4 {
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
+#bloc-2-services h2{
+font-size: 2rem;
+color: #3f3f3f;
+}
+#bloc-2-services p{
+    color: #535353;
+    }
+
 .icon-md{
 color: #000000;
 }
@@ -862,6 +869,18 @@ color: #000000;
     z-index: 100;
     margin-left: 5rem;
     margin-bottom: 3rem;
+}
+.citation h2{
+    font-style: italic;
+    font-weight: 400;
+    font-family:"helvetica";
+    color: #3f3f3f;
+}
+.citation p{
+    margin-top: 0rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+    font-family:"helvetica";
 }
 @media (max-width: 1024px) {
     .bloc {
